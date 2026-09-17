@@ -5,6 +5,7 @@ const links = [
   { href: '/policies/privacy', label: 'Privacy Policy' },
   { href: '/policies/cookies', label: 'Cookie Policy' },
   { href: '/other/license', label: 'Code Licensing' },
+  { href: '/policies/sms', label: 'Text Messaging Terms' },
   { href: '/other/domains', label: 'Our Domains' },
 ]
 
