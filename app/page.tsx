@@ -23,6 +23,11 @@ const documents = [
     description: 'The restrictive license terms that apply to our software and source code.',
   },
   {
+    href: '/policies/sms',
+    title: 'Text Messaging Terms',
+    description: 'How text messages from our messaging number are used, how to opt in, and how to opt out.',
+  },
+  {
     href: '/other/domains',
     title: 'Our Domains',
     description: 'Every domain owned and operated under the PrestonKwei.com suite of applications.',
