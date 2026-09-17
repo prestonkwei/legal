@@ -6,7 +6,7 @@ export const PolicyH2 = ({ children }: PolicyChildrenProps) => <h2 className='te
 
 export const PolicyH3 = ({ children }: PolicyChildrenProps) => <h3 className='text-base font-semibold text-white mt-9 mb-2.5'>{children}</h3>
 
-export const PolicyP = ({ children }: PolicyChildrenProps) => <p className='font-source text-[0.975rem] md:text-base leading-[1.8] text-zinc-400 mb-5'>{children}</p>
+export const PolicyP = ({ children }: PolicyChildrenProps) => <p className='font-source text-[0.975rem] md:text-base leading-[1.8] text-zinc-400 mb-5 break-words'>{children}</p>
 
 export const PolicyUl = ({ children }: PolicyChildrenProps) => <ul className='font-source list-disc pl-5 mb-5 space-y-2.5 text-[0.975rem] md:text-base leading-[1.75] text-zinc-400 marker:text-zinc-700'>{children}</ul>
 
@@ -22,6 +22,10 @@ export const PolicyEmail = ({ address }: { address: string }) => <PolicyLink hre
 
 export const PolicyNotice = ({ children }: PolicyChildrenProps) => (
   <div className='border-l-2 border-accent bg-surface pl-5 pr-5 py-4 mb-12 font-source text-[0.8125rem] leading-[1.8] tracking-wide text-zinc-400'>{children}</div>
+)
+
+export const PolicyQuote = ({ children }: PolicyChildrenProps) => (
+  <blockquote className='border border-edge bg-surface px-5 py-4 mb-5 font-source text-[0.9375rem] leading-[1.8] text-zinc-300 break-words'>{children}</blockquote>
 )
 
 export const PolicyDefList = ({ items }: { items: { term: string; definition: string }[] }) => (
