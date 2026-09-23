@@ -21,13 +21,21 @@ const Privacy = () => {
       <div id='communications' className='scroll-mt-8' />
       <PolicyH2>Communications With Preston</PolicyH2>
       <PolicyP>
-        Preston uses personal AI assistant tools to keep track of his conversations. If you communicate with him through any channel, including text messages and iMessage to his personal number, email, Slack, and other messaging apps, and notes or transcripts of calls and meetings with him, the content of those communications and details such as your name, contact information, and when you wrote may be stored and processed by those tools. They use this information to search past conversations, summarize threads, remember context, draft replies, and help Preston follow up. This includes group conversations in which you and Preston both take part.
+        Preston uses personal AI assistant tools that read and act on his communications. If you communicate with him through any channel, including text messages and iMessage to his personal number, email, Slack, phone calls, and recorded conversations and meetings, the content of those communications and details such as your name, phone number, email address, and when you wrote may be stored and processed by those tools. This includes group conversations in which you and Preston both take part.
+      </PolicyP>
+      <PolicyP>These tools use this information to:</PolicyP>
+      <PolicyUl>
+        <li>Classify and summarize incoming messages, and suggest or draft replies;</li>
+        <li>Keep notes about the people Preston talks with, such as shared plans, open conversations, and notable things you have told him, so he can remember context and follow up;</li>
+        <li>Track commitments and follow-ups, and keep a personal journal;</li>
+        <li>Transcribe and summarize calls and recorded conversations;</li>
+        <li>Send some messages and emails on Preston&apos;s behalf.</li>
+      </PolicyUl>
+      <PolicyP>
+        These tools run on third-party service providers that process the information on Preston&apos;s behalf, including AI model providers (such as OpenAI and Anthropic), communications and workspace providers (such as Telnyx and Slack), and hosting, database, and code-storage providers (such as Cloudflare, Neon, and GitHub). Your communications are never sold, and are never used for marketing or advertising.
       </PolicyP>
       <PolicyP>
-        These tools run on third-party service providers, including AI model providers and hosting services, which process the information on Preston&apos;s behalf to provide these functions. Your communications are never sold, and are never used for marketing, advertising, or profiling for anyone else&apos;s benefit.
-      </PolicyP>
-      <PolicyP>
-        You may ask Preston to delete your communications at any time by emailing <PolicyEmail address='privacy@prestonkwei.com' /> from the address or account you used, or by asking him directly. He will make reasonable efforts to remove your communications, and the notes, summaries, and memories derived from them, from his assistant tools within 30 days, and will confirm when he is done. Deletion does not reach copies held by you or other participants, records kept by the underlying platforms (such as your carrier, email provider, or Slack workspace), or backups that are overwritten on their normal schedule.
+        You may ask Preston to delete your communications and the notes about you at any time by emailing <PolicyEmail address='privacy@prestonkwei.com' /> from the address or account you used, or by asking him directly. He will make reasonable efforts to remove or de-identify your communications, and the notes, summaries, and memories derived from them, in his assistant tools within 30 days, and will confirm when he is done. Deletion does not reach copies held by you or other participants, records kept by the underlying platforms (such as your carrier, email provider, or Slack workspace), or backups and version history that are overwritten or pruned on their normal schedule.
       </PolicyP>
 
       <PolicyH2>1. Introduction and Scope</PolicyH2>
