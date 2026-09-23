@@ -9,13 +9,25 @@ export const metadata: Metadata = {
 
 const Privacy = () => {
   return (
-    <PolicyLayout title='Privacy Policy' lastUpdated='September 16, 2026' description='This policy describes, comprehensively and without qualification, how we collect, use, disclose, and retain information about you across every property we operate.'>
+    <PolicyLayout title='Privacy Policy' lastUpdated='September 23, 2026' description='This policy describes, comprehensively and without qualification, how we collect, use, disclose, and retain information about you across every property we operate.'>
       <PolicyNotice>BY ACCESSING OR USING ANY OF OUR SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTOOD THIS PRIVACY POLICY AND CONSENT TO THE COLLECTION, USE, DISCLOSURE, AND RETENTION OF YOUR INFORMATION AS DESCRIBED HEREIN. IF YOU DO NOT CONSENT, YOU MUST IMMEDIATELY DISCONTINUE ALL USE OF THE SERVICES.</PolicyNotice>
 
       <div id='sms' className='scroll-mt-8' />
       <PolicyH2>Text Messaging (SMS)</PolicyH2>
       <PolicyP>
         Notwithstanding anything else in this Privacy Policy, mobile phone numbers, text message content, and SMS opt-in consent collected through Preston Kwei&apos;s text messaging number are never sold, rented, or shared with third parties or affiliates for marketing or promotional purposes. This information is used only to carry on conversations you have opted into and is disclosed only to the messaging provider needed to deliver those messages. Reply STOP to opt out at any time. See the <a href='/policies/sms' className='text-white underline decoration-zinc-700 underline-offset-4'>Text Messaging Terms</a>.
+      </PolicyP>
+
+      <div id='communications' className='scroll-mt-8' />
+      <PolicyH2>Communications With Preston</PolicyH2>
+      <PolicyP>
+        Preston uses personal AI assistant tools to keep track of his conversations. If you communicate with him through any channel, including text messages and iMessage to his personal number, email, Slack, and other messaging apps, and notes or transcripts of calls and meetings with him, the content of those communications and details such as your name, contact information, and when you wrote may be stored and processed by those tools. They use this information to search past conversations, summarize threads, remember context, draft replies, and help Preston follow up. This includes group conversations in which you and Preston both take part.
+      </PolicyP>
+      <PolicyP>
+        These tools run on third-party service providers, including AI model providers and hosting services, which process the information on Preston&apos;s behalf to provide these functions. Your communications are never sold, and are never used for marketing, advertising, or profiling for anyone else&apos;s benefit.
+      </PolicyP>
+      <PolicyP>
+        You may ask Preston to delete your communications at any time by emailing <PolicyEmail address='privacy@prestonkwei.com' /> from the address or account you used, or by asking him directly. He will make reasonable efforts to remove your communications, and the notes, summaries, and memories derived from them, from his assistant tools within 30 days, and will confirm when he is done. Deletion does not reach copies held by you or other participants, records kept by the underlying platforms (such as your carrier, email provider, or Slack workspace), or backups that are overwritten on their normal schedule.
       </PolicyP>
 
       <PolicyH2>1. Introduction and Scope</PolicyH2>
