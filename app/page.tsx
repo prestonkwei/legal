@@ -28,6 +28,11 @@ const documents = [
     description: 'How text messages from our messaging number are used, how to opt in, and how to opt out.',
   },
   {
+    href: '/policies/identity-verification',
+    title: 'Identity Verification Terms',
+    description: 'How we verify age and identity for ticketed events, including with IDs in Apple Wallet.',
+  },
+  {
     href: '/other/domains',
     title: 'Our Domains',
     description: 'Every domain owned and operated under the PrestonKwei.com suite of applications.',

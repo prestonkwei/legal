@@ -9,13 +9,19 @@ export const metadata: Metadata = {
 
 const Privacy = () => {
   return (
-    <PolicyLayout title='Privacy Policy' lastUpdated='September 16, 2026' description='This policy describes, comprehensively and without qualification, how we collect, use, disclose, and retain information about you across every property we operate.'>
+    <PolicyLayout title='Privacy Policy' lastUpdated='October 20, 2026' description='This policy describes, comprehensively and without qualification, how we collect, use, disclose, and retain information about you across every property we operate.'>
       <PolicyNotice>BY ACCESSING OR USING ANY OF OUR SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTOOD THIS PRIVACY POLICY AND CONSENT TO THE COLLECTION, USE, DISCLOSURE, AND RETENTION OF YOUR INFORMATION AS DESCRIBED HEREIN. IF YOU DO NOT CONSENT, YOU MUST IMMEDIATELY DISCONTINUE ALL USE OF THE SERVICES.</PolicyNotice>
 
       <div id='sms' className='scroll-mt-8' />
       <PolicyH2>Text Messaging (SMS)</PolicyH2>
       <PolicyP>
         Notwithstanding anything else in this Privacy Policy, mobile phone numbers, text message content, and SMS opt-in consent collected through Preston Kwei&apos;s text messaging number are never sold, rented, or shared with third parties or affiliates for marketing or promotional purposes. This information is used only to carry on conversations you have opted into and is disclosed only to the messaging provider needed to deliver those messages. Reply STOP to opt out at any time. See the <a href='/policies/sms' className='text-white underline decoration-zinc-700 underline-offset-4'>Text Messaging Terms</a>.
+      </PolicyP>
+
+      <div id='identity-verification' className='scroll-mt-8' />
+      <PolicyH2>Identity and Age Verification</PolicyH2>
+      <PolicyP>
+        Notwithstanding anything else in this Privacy Policy, information collected to verify your age or identity for a ticketed event, including with a digital ID in Apple Wallet, is limited to an age-threshold result, your name, and your ID portrait. It is used only to confirm eligibility and ticket ownership and to admit you to the event; it is never sold, shared for advertising, used for profiling, combined with third-party data, or used to train any model; your ID portrait is compared by a person and never used for facial recognition; and it is deleted on the schedule described in the <a href='/policies/identity-verification' className='text-white underline decoration-zinc-700 underline-offset-4'>Identity Verification Terms</a>.
       </PolicyP>
 
       <PolicyH2>1. Introduction and Scope</PolicyH2>

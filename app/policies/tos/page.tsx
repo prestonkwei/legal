@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import PolicyLayout from '@/components/PolicyLayout'
-import { PolicyH2, PolicyH3, PolicyP, PolicyUl, PolicyOl, PolicyNotice, PolicyEmail, PolicyDefList } from '@/components/PolicyContent'
+import { PolicyH2, PolicyH3, PolicyP, PolicyUl, PolicyOl, PolicyNotice, PolicyEmail, PolicyLink, PolicyDefList } from '@/components/PolicyContent'
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const TermsOfService = () => {
   return (
-    <PolicyLayout title='Terms of Service' lastUpdated='August 10, 2026' description='This is a binding legal agreement. Read it in full before accessing or using any of our Services.'>
+    <PolicyLayout title='Terms of Service' lastUpdated='October 20, 2026' description='This is a binding legal agreement. Read it in full before accessing or using any of our Services.'>
       <PolicyNotice>
         THESE TERMS CONTAIN A BINDING ARBITRATION AGREEMENT, A CLASS ACTION WAIVER, A JURY TRIAL WAIVER, A RELEASE OF CLAIMS, A ONE-YEAR LIMITATION ON BRINGING CLAIMS, AND SIGNIFICANT LIMITATIONS ON OUR LIABILITY. THEY MATERIALLY AFFECT YOUR LEGAL RIGHTS. BY ACCESSING OR USING THE SERVICES IN ANY MANNER, YOU AGREE TO BE BOUND BY THESE TERMS IN THEIR ENTIRETY. IF YOU DO NOT AGREE, YOUR SOLE REMEDY IS TO IMMEDIATELY CEASE ALL USE OF THE SERVICES.
       </PolicyNotice>
@@ -34,6 +34,9 @@ const TermsOfService = () => {
 
       <PolicyH2>3. Eligibility</PolicyH2>
       <PolicyP>You must be at least 18 years of age to use the Services. Individuals between 13 and 18 years of age may use the Services only with the verifiable consent of a parent or legal guardian who agrees to be bound by these Terms and to accept full responsibility for the minor&apos;s use. The Services are not directed to, and may not be used by, anyone under 13 under any circumstances. By using the Services, you represent and warrant that you satisfy these requirements, that all information you provide is accurate and current, and that you have not previously been suspended or removed from the Services. We reserve the right to demand proof of eligibility at any time and to suspend or terminate any account, without notice or refund, where eligibility cannot be established to our satisfaction.</PolicyP>
+      <PolicyP>
+        Certain Services, including event ticketing, may require you to verify your age or identity, including with a digital ID in Apple Wallet. Verification is governed by our <PolicyLink href='/policies/identity-verification'>Identity Verification Terms</PolicyLink>, which are incorporated into these Terms and control over them with respect to the information collected for verification.
+      </PolicyP>
 
       <PolicyH2>4. Accounts and Security</PolicyH2>
       <PolicyP>You are solely and fully responsible for all activity occurring under your account, whether or not authorized by you. You must safeguard your credentials, and you assume all risk arising from any failure to do so. You must notify us immediately of any unauthorized use, but such notice does not relieve you of responsibility for activity occurring before we are able to act on it. We bear no liability whatsoever for any loss or damage arising from unauthorized use of your account. We may refuse registration, reclaim usernames, and suspend, restrict, or terminate accounts at any time, for any reason or no reason, in our sole and absolute discretion.</PolicyP>
