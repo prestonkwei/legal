@@ -3,11 +3,8 @@ import Link from 'next/link'
 const links = [
   { href: '/policies/tos', label: 'Terms of Service' },
   { href: '/policies/privacy', label: 'Privacy Policy' },
-  { href: '/policies/cookies', label: 'Cookie Policy' },
-  { href: '/other/license', label: 'Code Licensing' },
   { href: '/policies/sms', label: 'Text Messaging Terms' },
   { href: '/policies/identity-verification', label: 'Identity Verification Terms' },
-  { href: '/other/domains', label: 'Our Domains' },
 ]
 
 const Footer = () => {
@@ -23,8 +20,6 @@ const Footer = () => {
               </a>
               <br />
               (855) 681-5573
-              <br />
-              PO Box 20987, Oakland, CA 94620
             </p>
           </div>
 

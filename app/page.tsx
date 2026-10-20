@@ -13,16 +13,6 @@ const documents = [
     description: 'What information we collect, how we use and disclose it, and the rights available to you.',
   },
   {
-    href: '/policies/cookies',
-    title: 'Cookie Policy',
-    description: 'The cookies and tracking technologies we deploy and how you can manage them.',
-  },
-  {
-    href: '/other/license',
-    title: 'Code Licensing',
-    description: 'The restrictive license terms that apply to our software and source code.',
-  },
-  {
     href: '/policies/sms',
     title: 'Text Messaging Terms',
     description: 'How text messages from our messaging number are used, how to opt in, and how to opt out.',
@@ -31,11 +21,6 @@ const documents = [
     href: '/policies/identity-verification',
     title: 'Identity Verification Terms',
     description: 'How we verify age and identity for ticketed events, including with IDs in Apple Wallet.',
-  },
-  {
-    href: '/other/domains',
-    title: 'Our Domains',
-    description: 'Every domain owned and operated under the PrestonKwei.com suite of applications.',
   },
 ]
 

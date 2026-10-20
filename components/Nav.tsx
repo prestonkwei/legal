@@ -3,7 +3,6 @@ import Link from 'next/link'
 const links = [
   { href: '/policies/tos', label: 'Terms' },
   { href: '/policies/privacy', label: 'Privacy' },
-  { href: '/policies/cookies', label: 'Cookies' },
 ]
 
 const Nav = () => {
