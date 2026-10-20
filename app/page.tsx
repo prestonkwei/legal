@@ -20,7 +20,7 @@ const documents = [
   {
     href: '/policies/identity-verification',
     title: 'Identity Verification Terms',
-    description: 'How we verify age and identity for ticketed events, including with IDs in Apple Wallet.',
+    description: 'How we verify age and identity, including with IDs in Apple Wallet and photos of IDs.',
   },
 ]
 

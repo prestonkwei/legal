@@ -21,7 +21,7 @@ const Privacy = () => {
       <div id='identity-verification' className='scroll-mt-8' />
       <PolicyH2>Identity and Age Verification</PolicyH2>
       <PolicyP>
-        Notwithstanding anything else in this Privacy Policy, information collected to verify your age or identity for a ticketed event, including with a digital ID in Apple Wallet, is limited to an age-threshold result, your name, and your ID portrait. It is used only to confirm eligibility and ticket ownership and to admit you to the event; it is never sold, shared for advertising, used for profiling, combined with third-party data, or used to train any model; your ID portrait is compared by a person and never used for facial recognition; and it is deleted on the schedule described in the <a href='/policies/identity-verification' className='text-white underline decoration-zinc-700 underline-offset-4'>Identity Verification Terms</a>.
+        Notwithstanding anything else in this Privacy Policy, information collected to verify your age or identity, including from a digital ID in Apple Wallet or a photo of a government-issued ID, is used only to confirm eligibility and identity, prevent fraud, admit you to events, and comply with law. It is never sold, shared for advertising, used for profiling, or used to train any model; ID portraits are compared by a person and are not used for facial recognition; and it is deleted on the schedule described in the <a href='/policies/identity-verification' className='text-white underline decoration-zinc-700 underline-offset-4'>Identity Verification Terms</a>.
       </PolicyP>
 
       <PolicyH2>1. Introduction and Scope</PolicyH2>
