@@ -4,67 +4,71 @@ import { PolicyH2, PolicyH3, PolicyP, PolicyUl, PolicyQuote, PolicyEmail, Policy
 
 export const metadata: Metadata = {
   title: 'Text Messaging Terms',
-  description: 'How Preston Kwei uses his text messaging number, how to opt in, and how to opt out.',
+  description: 'Terms governing text messages sent by Preston Kwei, including how to opt in and how to opt out.',
 }
 
 const Sms = () => {
   return (
-    <PolicyLayout title='Text Messaging Terms' lastUpdated='September 17, 2026' description='Terms for text messages sent from the personal messaging number of Preston Kwei, (510) 390-7573.'>
-      <PolicyH2>1. Who Sends These Messages</PolicyH2>
+    <PolicyLayout title='Text Messaging Terms' lastUpdated='November 5, 2026' description="Terms governing text messages sent from Preston Kwei's registered phone numbers.">
+      <PolicyH2>1. Applicability and Sender</PolicyH2>
       <PolicyP>
-        Text messages from (510) 390-7573 are sent by Preston Kwei, an individual. This is not a business, marketing, or promotional program. The number is used for one-to-one conversations with people Preston knows or is personally coordinating with. Some calls and replies from this number are handled by Preston&apos;s own automated assistant on his behalf, and Preston reviews these conversations and replies personally as well.
+        These Text Messaging Terms (the &quot;Terms&quot;) govern text messages sent by Preston Kwei, an individual (&quot;Preston&quot;), from any phone number registered to Preston for text messaging (each, a &quot;Registered Number&quot;). The messaging program described in these Terms is not a marketing, advertising, or promotional program. Certain calls and messages may be placed, sent, or answered by an automated assistant acting on Preston&apos;s behalf, and all such communications are subject to Preston&apos;s review.
       </PolicyP>
 
-      <PolicyH2>2. What Messages You Will Receive</PolicyH2>
+      <PolicyH2>2. Nature of Messages</PolicyH2>
+      <PolicyP>Messages sent under these Terms are limited to:</PolicyP>
       <PolicyUl>
-        <li>Replies to messages you send to this number;</li>
-        <li>Follow-ups after a phone call with Preston or his assistant;</li>
-        <li>Confirmations and changes for plans, meetings, and appointments you have made with Preston.</li>
+        <li>Replies to messages you send to a Registered Number;</li>
+        <li>Follow-ups regarding a phone call between you and Preston or an assistant acting on Preston&apos;s behalf; and</li>
+        <li>Confirmations of, and changes to, plans, meetings, and appointments arranged with Preston.</li>
       </PolicyUl>
-      <PolicyP>No marketing, promotional, affiliate, or third-party content is sent from this number.</PolicyP>
+      <PolicyP>No marketing, advertising, promotional, affiliate, or third-party content will be sent under these Terms.</PolicyP>
 
-      <PolicyH2>3. How to Opt In</PolicyH2>
-      <PolicyP>There are two ways to opt in, and no message is sent from this number until you have opted in through one of them.</PolicyP>
+      <PolicyH2>3. Consent and Opt-In</PolicyH2>
+      <PolicyP>You may consent to receive messages by either of the methods described below. No message will be sent to you under these Terms unless and until you have given consent through one of these methods.</PolicyP>
 
       <PolicyH3>Inbound Keyword</PolicyH3>
       <PolicyP>The following call to action is displayed publicly on this page, at https://legal.prestonkwei.com/policies/sms, before any message is sent:</PolicyP>
       <PolicyQuote>
-        Text START to (510) 390-7573 to receive text messages from Preston Kwei. Messages are one-to-one and conversational: replies to messages you send, follow-ups after a phone call, and confirmations or changes to plans, meetings, and appointments. No marketing or promotional messages are sent. Message frequency varies. Message and data rates may apply. Reply STOP to opt out. Reply HELP for help. See the Text Messaging Terms at https://legal.prestonkwei.com/policies/sms and the Privacy Policy at https://legal.prestonkwei.com/policies/privacy.
+        Text START to (phone number) to receive text messages from Preston Kwei, including replies to messages you send, follow-ups after a phone call, and confirmations or changes to plans, meetings, and appointments. No marketing or promotional messages are sent. Message frequency varies. Message and data rates may apply. Reply STOP to opt out. Reply HELP for help. See the Text Messaging Terms at https://legal.prestonkwei.com/policies/sms and the Privacy Policy at https://legal.prestonkwei.com/policies/privacy.
       </PolicyQuote>
 
       <PolicyH3>Verbal Consent</PolicyH3>
-      <PolicyP>During a phone call placed from (510) 390-7573, you are read this script verbatim:</PolicyP>
+      <PolicyP>During a phone call placed from one of Preston&apos;s Registered Numbers, the following script is read to you verbatim:</PolicyP>
       <PolicyQuote>
         Is it okay if Preston texts you at this number about what we discussed? Message frequency varies, message and data rates may apply, you can reply STOP at any time to opt out, and reply HELP for help. Full terms are at legal.prestonkwei.com/policies/sms.
       </PolicyQuote>
-      <PolicyP>A text is sent only if you answer yes. Verbal consent is logged with the date, time, and the number called.</PolicyP>
+      <PolicyP>A message will be sent only if you affirmatively consent. Each verbal consent is recorded with the date and time of the call and the phone number called.</PolicyP>
 
-      <PolicyH3>Your First Message</PolicyH3>
-      <PolicyP>In both cases, the first message sent is:</PolicyP>
+      <PolicyH3>Confirmation Message</PolicyH3>
+      <PolicyP>Upon opt-in by either method, the first message sent to you will read:</PolicyP>
       <PolicyQuote>
         Preston Kwei: you&apos;re subscribed to text messages from this number. Msg frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for help. Terms: legal.prestonkwei.com/policies/sms
       </PolicyQuote>
-      <PolicyP>Consent to receive messages is never a condition of any purchase or service, and is never required to do anything else with Preston.</PolicyP>
+      <PolicyP>Consent to receive text messages is not a condition of any purchase or service, and is not required for any other dealings with Preston.</PolicyP>
 
-      <PolicyH2>4. Frequency and Cost</PolicyH2>
-      <PolicyP>Message frequency varies based on your conversation, up to 10 messages per week. Message and data rates may apply according to your mobile plan.</PolicyP>
+      <PolicyH2>4. Message Frequency and Charges</PolicyH2>
+      <PolicyP>Message frequency varies and will not exceed ten (10) messages per week. Message and data rates may apply in accordance with your wireless plan.</PolicyP>
 
-      <PolicyH2>5. How to Opt Out or Get Help</PolicyH2>
+      <PolicyH2>5. Opt-Out and Assistance</PolicyH2>
       <PolicyP>
-        Reply STOP at any time to stop receiving messages. You will receive one final message confirming you are unsubscribed. Reply START to opt back in. Reply HELP for help, or email <PolicyEmail address='hello@prestonkwei.com' />.
+        You may revoke your consent at any time by replying STOP to any message. Upon receipt of your request, one final message will be sent confirming that you have been unsubscribed, and no further messages will be sent unless you opt in again by replying START. For assistance, reply HELP or email <PolicyEmail address='hello@prestonkwei.com' />.
       </PolicyP>
 
       <PolicyH2>6. Privacy</PolicyH2>
       <PolicyP>
-        Your mobile number, text messages, and opt-in consent are never sold, rented, or shared with third parties or affiliates for marketing or promotional purposes. They are used only to carry on your conversation with Preston and to deliver messages through his messaging provider. See the <PolicyLink href='/policies/privacy#sms'>Privacy Policy</PolicyLink> for more.
+        Your mobile number, message content, and opt-in consent records will not be sold, rented, or shared with third parties or affiliates for marketing or promotional purposes. This information is used solely to communicate with you and to deliver messages through Preston&apos;s messaging service provider. See the <PolicyLink href='/policies/privacy#sms'>Privacy Policy</PolicyLink> for more information.
       </PolicyP>
 
-      <PolicyH2>7. Carriers</PolicyH2>
+      <PolicyH2>7. Carrier Disclaimer</PolicyH2>
       <PolicyP>Wireless carriers are not liable for delayed or undelivered messages.</PolicyP>
 
-      <PolicyH2>8. Contact</PolicyH2>
+      <PolicyH2>8. Changes to These Terms</PolicyH2>
+      <PolicyP>Preston may update these Terms from time to time, including by adding, changing, or retiring Registered Numbers. The current version will be posted on this page with a revised &quot;Last Updated&quot; date.</PolicyP>
+
+      <PolicyH2>9. Contact</PolicyH2>
       <PolicyP>
-        Preston Kwei, <PolicyEmail address='hello@prestonkwei.com' />, (510) 390-7573.
+        Questions about these Terms may be directed to Preston Kwei at <PolicyEmail address='hello@prestonkwei.com' />.
       </PolicyP>
     </PolicyLayout>
   )
