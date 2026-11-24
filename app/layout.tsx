@@ -25,6 +25,10 @@ export const metadata: Metadata = {
     template: '%s | Legal - PrestonKwei.com',
   },
   description: 'Legal policies, terms, and notices governing PrestonKwei.com and its suite of applications.',
+  robots: {
+    index: false,
+    follow: true,
+  },
   icons: {
     icon: 'https://cdn.prestonkwei.com/personalwebsitefavicon.png',
   },

@@ -22,6 +22,11 @@ const documents = [
     title: 'Identity Verification Terms',
     description: 'How we verify age and identity, including with IDs in Apple Wallet and scans of physical IDs.',
   },
+  {
+    href: '/policies/published-software',
+    title: 'Published Software Terms',
+    description: 'Why some of our packages and icons are publicly installable, and why that grants no right to use them.',
+  },
 ]
 
 export default function Home() {

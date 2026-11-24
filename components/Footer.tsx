@@ -5,6 +5,7 @@ const links = [
   { href: '/policies/privacy', label: 'Privacy Policy' },
   { href: '/policies/sms', label: 'Text Messaging Terms' },
   { href: '/policies/identity-verification', label: 'Identity Verification Terms' },
+  { href: '/policies/published-software', label: 'Published Software Terms' },
 ]
 
 const Footer = () => {
