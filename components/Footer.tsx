@@ -3,9 +3,12 @@ import Link from 'next/link'
 const links = [
   { href: '/policies/tos', label: 'Terms of Service' },
   { href: '/policies/privacy', label: 'Privacy Policy' },
-  { href: '/policies/sms', label: 'Text Messaging Terms' },
-  { href: '/policies/identity-verification', label: 'Identity Verification Terms' },
-  { href: '/policies/published-software', label: 'Published Software Terms' },
+]
+
+const supplements = [
+  { href: '/policies/sms', label: 'Text Messaging' },
+  { href: '/policies/identity-verification', label: 'Identity Verification' },
+  { href: '/policies/proprietary-software', label: 'Proprietary Software' },
 ]
 
 const Footer = () => {
@@ -30,6 +33,13 @@ const Footer = () => {
                 {link.label}
               </Link>
             ))}
+            <div className='mt-2 flex flex-wrap gap-x-4 gap-y-1.5 text-xs'>
+              {supplements.map((link) => (
+                <Link key={link.href} href={link.href} className='text-zinc-600 hover:text-white transition-colors duration-150'>
+                  {link.label}
+                </Link>
+              ))}
+            </div>
           </nav>
         </div>
 

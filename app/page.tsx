@@ -12,21 +12,12 @@ const documents = [
     title: 'Privacy Policy',
     description: 'What information we collect, how we use and disclose it, and the rights available to you.',
   },
-  {
-    href: '/policies/sms',
-    title: 'Text Messaging Terms',
-    description: 'How text messages from our messaging number are used, how to opt in, and how to opt out.',
-  },
-  {
-    href: '/policies/identity-verification',
-    title: 'Identity Verification Terms',
-    description: 'How we verify age and identity, including with IDs in Apple Wallet and scans of physical IDs.',
-  },
-  {
-    href: '/policies/published-software',
-    title: 'Published Software Terms',
-    description: 'Why some of our packages and icons are publicly installable, and why that grants no right to use them.',
-  },
+]
+
+const supplements = [
+  { href: '/policies/sms', label: 'Text Messaging Terms' },
+  { href: '/policies/identity-verification', label: 'Identity Verification Terms' },
+  { href: '/policies/proprietary-software', label: 'Proprietary Software Terms' },
 ]
 
 export default function Home() {
@@ -55,6 +46,18 @@ export default function Home() {
             </div>
           </Link>
         ))}
+      </div>
+
+      <div className='shell pt-10 md:pt-12'>
+        <p className='font-mono text-[0.7rem] uppercase tracking-widest text-zinc-600'>Supplemental Terms</p>
+        <nav className='mt-4 flex flex-wrap gap-x-8 gap-y-3 text-sm'>
+          {supplements.map((link) => (
+            <Link key={link.href} href={link.href} className='group inline-flex items-center gap-1.5 text-zinc-400 hover:text-white transition-colors duration-150'>
+              {link.label}
+              <i className='bi bi-arrow-right text-xs text-zinc-600 transition-all duration-200 group-hover:text-white group-hover:translate-x-0.5' aria-hidden='true' />
+            </Link>
+          ))}
+        </nav>
       </div>
 
       <section className='shell py-14 md:py-20'>
