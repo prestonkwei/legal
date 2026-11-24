@@ -12,10 +12,14 @@ const documents = [
     title: 'Privacy Policy',
     description: 'What information we collect, how we use and disclose it, and the rights available to you.',
   },
+  {
+    href: '/policies/sms',
+    title: 'Text Messaging Terms',
+    description: 'How text messages from our messaging number are used, how to opt in, and how to opt out.',
+  },
 ]
 
 const supplements = [
-  { href: '/policies/sms', label: 'Text Messaging Terms' },
   { href: '/policies/identity-verification', label: 'Identity Verification Terms' },
   { href: '/policies/proprietary-software', label: 'Proprietary Software Terms' },
 ]

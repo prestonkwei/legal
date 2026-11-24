@@ -3,10 +3,10 @@ import Link from 'next/link'
 const links = [
   { href: '/policies/tos', label: 'Terms of Service' },
   { href: '/policies/privacy', label: 'Privacy Policy' },
+  { href: '/policies/sms', label: 'Text Messaging Terms' },
 ]
 
 const supplements = [
-  { href: '/policies/sms', label: 'Text Messaging' },
   { href: '/policies/identity-verification', label: 'Identity Verification' },
   { href: '/policies/proprietary-software', label: 'Proprietary Software' },
 ]
