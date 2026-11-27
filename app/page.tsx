@@ -22,6 +22,7 @@ const documents = [
 const supplements = [
   { href: '/policies/identity-verification', label: 'Identity Verification Terms' },
   { href: '/policies/proprietary-software', label: 'Proprietary Software Terms' },
+  { href: '/policies/electronic-signatures', label: 'Electronic Signature Terms' },
 ]
 
 export default function Home() {

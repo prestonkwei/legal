@@ -9,6 +9,7 @@ const links = [
 const supplements = [
   { href: '/policies/identity-verification', label: 'Identity Verification' },
   { href: '/policies/proprietary-software', label: 'Proprietary Software' },
+  { href: '/policies/electronic-signatures', label: 'Electronic Signatures' },
 ]
 
 const Footer = () => {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const TermsOfService = () => {
   return (
-    <PolicyLayout title='Terms of Service' lastUpdated='October 20, 2026' description='This is a binding legal agreement. Read it in full before accessing or using any of our Services.'>
+    <PolicyLayout title='Terms of Service' lastUpdated='November 27, 2026' description='This is a binding legal agreement. Read it in full before accessing or using any of our Services.'>
       <PolicyNotice>
         THESE TERMS CONTAIN A BINDING ARBITRATION AGREEMENT, A CLASS ACTION WAIVER, A JURY TRIAL WAIVER, A RELEASE OF CLAIMS, A ONE-YEAR LIMITATION ON BRINGING CLAIMS, AND SIGNIFICANT LIMITATIONS ON OUR LIABILITY. THEY MATERIALLY AFFECT YOUR LEGAL RIGHTS. BY ACCESSING OR USING THE SERVICES IN ANY MANNER, YOU AGREE TO BE BOUND BY THESE TERMS IN THEIR ENTIRETY. IF YOU DO NOT AGREE, YOUR SOLE REMEDY IS TO IMMEDIATELY CEASE ALL USE OF THE SERVICES.
       </PolicyNotice>
@@ -134,6 +134,10 @@ const TermsOfService = () => {
       <PolicyP>The Services are &quot;Commercial Items&quot; as defined in 48 C.F.R. § 2.101, licensed to U.S. government end users only as Commercial Items with only those rights granted to all other end users under these Terms.</PolicyP>
       <PolicyH3>Assignment</PolicyH3>
       <PolicyP>You may not assign or transfer these Terms or any rights hereunder without our prior written consent; any attempt is void. We may assign these Terms freely, including in connection with a merger, acquisition, reorganization, or sale of assets.</PolicyP>
+      <PolicyH3>Electronic Signatures and Records</PolicyH3>
+      <PolicyP>
+        Certain Services permit documents to be signed electronically, directly or through a third-party signing provider. Every electronic signature applied, and every electronic record executed, delivered, or retained, through the Services is governed by our <PolicyLink href='/policies/electronic-signatures'>Electronic Signature Terms</PolicyLink>, which are incorporated into these Terms, control over them with respect to electronic signatures and records, and provide that any electronic signature you apply through the Services is legally binding to the same extent as your handwritten signature.
+      </PolicyP>
       <PolicyH3>Severability; No Waiver; Entire Agreement</PolicyH3>
       <PolicyP>If any provision of these Terms is held invalid or unenforceable, it shall be enforced to the maximum extent permissible and the remaining provisions remain in full force. Our failure to enforce any provision is not a waiver of our right to do so later. These Terms, together with the Privacy Policy and any other policies posted on this site (each incorporated by reference), constitute the entire agreement between you and us and supersede all prior agreements and understandings.</PolicyP>
       <PolicyH3>Language and Interpretation</PolicyH3>
