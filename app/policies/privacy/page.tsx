@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import PolicyLayout from '@/components/PolicyLayout'
-import { PolicyH2, PolicyH3, PolicyP, PolicyUl, PolicyNotice, PolicyEmail } from '@/components/PolicyContent'
+import { PolicyH2, PolicyH3, PolicyP, PolicyUl, PolicyEmail } from '@/components/PolicyContent'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
@@ -10,8 +10,6 @@ export const metadata: Metadata = {
 const Privacy = () => {
   return (
     <PolicyLayout title='Privacy Policy' lastUpdated='October 20, 2026' description='This policy describes, comprehensively and without qualification, how we collect, use, disclose, and retain information about you across every property we operate.'>
-      <PolicyNotice>BY ACCESSING OR USING ANY OF OUR SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTOOD THIS PRIVACY POLICY AND CONSENT TO THE COLLECTION, USE, DISCLOSURE, AND RETENTION OF YOUR INFORMATION AS DESCRIBED HEREIN. IF YOU DO NOT CONSENT, YOU MUST IMMEDIATELY DISCONTINUE ALL USE OF THE SERVICES.</PolicyNotice>
-
       <div id='sms' className='scroll-mt-8' />
       <PolicyH2>Text Messaging (SMS)</PolicyH2>
       <PolicyP>
